@@ -1,0 +1,83 @@
+*{
+    margin:0;
+    padding:0;
+    /* box-sizing: border-box; */
+}
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    overflow: hidden;
+}
+/* utility classes and tags styling */
+.w-m{ 
+    font-size: 1.2rem;
+}
+.btn{
+    display:block;
+    height: 4rem;
+    width: 5rem;
+    border-top-right-radius: 7rem ;
+    border-bottom-right-radius:7rem ;
+    background: #000;
+    color:#fff;
+    font-size: 0.8rem;
+    transition: all, ease-in 1s;
+    border: solid 2px;
+    
+}
+.btn:hover{
+    background: #fff;
+    color:#000;
+    border: solid 2px #000;
+}
+h1{
+    /* border: black solid 2px; */
+    margin: 2rem 5rem 1.5rem 5rem;
+    /* margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 1rem; */
+    text-align:center;
+
+}
+
+/* main body classes */
+.container{
+    /* border: black solid 2px; */
+    height:100vh;
+}
+.container .card{
+    border: black solid 2px;
+    margin: 1rem;
+    padding: 2rem 1rem;
+    height:15vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items:center;
+}
+.container .play{
+    margin:1rem 1.2rem;
+    font-size: 1.2rem;
+}
+.container .card .choice{
+    border: black solid 2px;
+    padding:1rem;
+    width:10vw;
+    height:10vh;
+    text-align:center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all, ease-in 1s;
+}
+.container .card .choice:hover{
+    background: #000;
+    color:#fff;
+
+}
+.container .display-card{
+    border: black solid 2px;
+    text-align:center;
+    margin: 1rem 2rem;
+    padding:2rem;
+    height: 10vh;
+}
